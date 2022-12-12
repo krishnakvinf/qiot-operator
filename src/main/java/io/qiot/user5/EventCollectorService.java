@@ -2,7 +2,7 @@ package io.qiot.user5;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 
-public class EventCollectorService implements DatacenterResource {
+public class EventCollectorService implements QiotResource {
 
     @JsonPropertyDescription("The image name for Event Collector Service")
     public String image;

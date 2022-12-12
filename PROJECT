@@ -9,4 +9,10 @@ resources:
   domain: user5.qiot.io
   kind: Datacenter
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: user5.qiot.io
+  kind: Factory
+  version: v1alpha1
 version: "3"

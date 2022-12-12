@@ -2,12 +2,12 @@ package io.qiot.user5;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 
-public class RegistrationService implements QiotResource {
+public class FactoryProductionValidatorService implements QiotResource {
 
-    @JsonPropertyDescription("The image name for Registration Service")
+    @JsonPropertyDescription("The image name for Factory Production Validator Service")
     public String image;
 
-    @JsonPropertyDescription("The image tag for Registration Service")
+    @JsonPropertyDescription("The image tag for Factory Production Validator Service")
     public String version;
 
     @JsonPropertyDescription("Log level for this service.")
@@ -30,6 +30,5 @@ public class RegistrationService implements QiotResource {
             return logLevel;
         }
     }
-
 
 }

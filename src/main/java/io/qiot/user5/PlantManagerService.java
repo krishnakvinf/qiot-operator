@@ -2,7 +2,7 @@ package io.qiot.user5;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 
-public class PlantManagerService implements DatacenterResource {
+public class PlantManagerService implements QiotResource {
 
     @JsonPropertyDescription("The image name for Plant Manager Service")
     public String image;

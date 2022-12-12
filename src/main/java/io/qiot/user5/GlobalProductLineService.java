@@ -2,7 +2,7 @@ package io.qiot.user5;
 
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 
-public  class GlobalProductLineService implements DatacenterResource {
+public  class GlobalProductLineService implements QiotResource {
 
     @JsonPropertyDescription("The image name for Global Product Line Service")
     public String image;

@@ -1,0 +1,21 @@
+apiVersion: user5.qiot.io/v1alpha1
+kind: Factory
+metadata:
+  name: qiotfactorytest
+  namespace: default
+spec:
+  registry: "quay.io/qiotmanufacturing/"
+  kafkaBootstrapURL: "my-cluster-kafka-bootstrap.kafka.svc.cluster.local:9092"
+  sizing: 1
+  factoryFacilityManagerService:
+    image: "factory-facility-manager"
+    version: "latest"
+    logLevel: "INFO"
+  factoryProductLineService:
+    image: "factory-product-line"
+    version: "latest"
+    logLevel: "INFO"
+  factoryProductionValidatorService:
+    image: "factory-production-validator"
+    version: "latest"
+    logLevel: "DEBUG"

@@ -1,6 +1,6 @@
 package io.qiot.user5;
 
-public class Datastore implements DatacenterResource {
+public class Datastore implements QiotResource {
  
     String imageName, version;
 
