@@ -1,6 +1,6 @@
 # qiot-operator
 
-operator to install qiot components on Factory and Datacenter clusters.
+operator to install [qiot](https://github.com/qiot-project/) components on Factory and Datacenter clusters.
 
 ## Testing using minikube
 
